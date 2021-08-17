@@ -9,4 +9,4 @@ hsh main.c shell.c
 ($)
 ($) exit
 $
-
+.
