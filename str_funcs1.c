@@ -1,7 +1,7 @@
 /*
  * File: str_funcs1.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
@@ -24,7 +24,6 @@ int length = 0;
 if (!s)
 return (length);
 for (length = 0; s[length]; length++)
-		;
 return (length);
 }
 
