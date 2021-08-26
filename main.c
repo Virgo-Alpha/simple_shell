@@ -30,6 +30,7 @@ write(STDIN_FILENO, new_prompt, 3);
  * Return: If an error occurs - a corresponding error code.
  *         O/w - The exit value of the last executed command.
  */
+
 int execute(char **args, char **front)
 {
 pid_t child_pid;
@@ -87,6 +88,7 @@ return (ret);
  *
  * Return: The return value of the last executed command.
  */
+
 int main(int argc, char *argv[])
 {
 int ret = 0, retn;
