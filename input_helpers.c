@@ -1,7 +1,7 @@
 /*
  * File: input_helpers.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
