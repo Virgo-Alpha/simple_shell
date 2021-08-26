@@ -71,7 +71,6 @@ free(*env_var);
 return (0);
 }
 for (size = 0; environ[size]; size++);
-
 new_environ = malloc(sizeof(char *) * (size + 2));
 if (!new_environ)
 {
@@ -112,7 +111,6 @@ if (!env_var)
 return (0);
 
 for (size = 0; environ[size]; size++);
-
 new_environ = malloc(sizeof(char *) * size);
 if (!new_environ)
 return (create_error(args, -1));
