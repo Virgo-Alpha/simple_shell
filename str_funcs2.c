@@ -1,7 +1,7 @@
 /*
  * File: str_funcs2.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 #include "shell.h"
 
