@@ -1,7 +1,7 @@
 /*
  * File: getline.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
