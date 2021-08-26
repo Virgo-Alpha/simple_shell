@@ -162,6 +162,7 @@ new_len++;
 }
 return (new_len);
 }
+
 /**
  * logical_ops - Checks a line for logical operators "||" or "&&".
  * @line: A pointer to the character to check in the line.
