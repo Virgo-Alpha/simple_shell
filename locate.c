@@ -1,7 +1,7 @@
 /*
  * File: locate.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
