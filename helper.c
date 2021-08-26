@@ -1,7 +1,7 @@
 /*
  * File: helper.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
@@ -134,11 +134,12 @@ else if (old_line[j + 1])
 /* extract the variable name to search for */
 for (k = j + 1; old_line[k] &&
 old_line[k] != '$' &&
-old_line[k] != ' '; k++);
+old_line[k] != ' ';
+k++)
 len = k - (j + 1);
 replacement = get_env_value(&old_line[j + 1], len);
 }
-new_line = malloc(j + _strlen(replacement) 
+new_line = malloc(j + _strlen(replacement)
 + _strlen(&old_line[k]) + 1);
 if (!line)
 return;
