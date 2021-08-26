@@ -1,7 +1,7 @@
 /*
  * File: helpers_2.c
  * Author: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
