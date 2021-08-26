@@ -1,7 +1,7 @@
 /*
  * File: split.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
