@@ -1,7 +1,7 @@
 /*
  * File: linkedlist.c
  * Authors: Benson & Sumeiya
- * 
+ *
  */
 
 #include "shell.h"
