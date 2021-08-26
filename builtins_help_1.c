@@ -85,7 +85,6 @@ write(STDOUT_FILENO, msg, _strlen(msg));
 msg = " exit 0.\n";
 write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
 /**
  * help_help - Displays information on the shellby builtin command 'help'.
  */
