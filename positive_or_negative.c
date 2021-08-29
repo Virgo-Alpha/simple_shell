@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "shell.h"
 
 /**
- * main - Entry point
+ * _signage - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _signage(void)
 {
 int n;
 
