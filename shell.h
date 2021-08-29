@@ -139,5 +139,7 @@ void help_setenv(void);
 void help_unsetenv(void);
 void help_history(void);
 
+int _signage(void);
+
 int proc_file_commands(char *file_path, int *exe_ret);
 #endif /* _SHELL_H_ */
