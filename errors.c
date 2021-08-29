@@ -66,8 +66,7 @@ do {
 buffer[len] = (num1 % 10) + '0';
 num1 /= 10;
 len--;
-}
-while (num1 > 0);
+} while (num1 > 0);
 
 return (buffer);
 }
